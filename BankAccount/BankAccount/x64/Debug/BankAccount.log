@@ -1,0 +1,6 @@
+﻿main.obj : error LNK2019: unresolved external symbol "void __cdecl display(class std::vector<class CheckingAccount,class std::allocator<class CheckingAccount> > const &)" (?display@@YAXAEBV?$vector@VCheckingAccount@@V?$allocator@VCheckingAccount@@@std@@@std@@@Z) referenced in function main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl display(class std::vector<class CheckingAccount,class std::allocator<class CheckingAccount> > &)" (?display@@YAXAEAV?$vector@VCheckingAccount@@V?$allocator@VCheckingAccount@@@std@@@std@@@Z)
+      "void __cdecl display(class std::vector<class Account,class std::allocator<class Account> > const &)" (?display@@YAXAEBV?$vector@VAccount@@V?$allocator@VAccount@@@std@@@std@@@Z)
+      "void __cdecl display(class std::vector<class SavingsAccount,class std::allocator<class SavingsAccount> > const &)" (?display@@YAXAEBV?$vector@VSavingsAccount@@V?$allocator@VSavingsAccount@@@std@@@std@@@Z)
+C:\Dev\C++\BankAccount\x64\Debug\BankAccount.exe : fatal error LNK1120: 1 unresolved externals
